@@ -2,12 +2,14 @@ import { useState, useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
 import { motion, AnimatePresence } from 'framer-motion'
 
+const BASE = import.meta.env.BASE_URL.replace(/\/$/, '')
+
 const links = [
-  { href: '/#about',      id: 'about',      icon: 'fas fa-user-gear',         label: 'About' },
-  { href: '/#topics',     id: 'topics',     icon: 'fas fa-layer-group',        label: 'Topics' },
-  { href: '/#episodes',   id: 'episodes',   icon: 'fas fa-circle-play',        label: 'Episodes' },
-  { href: '/#platforms',  id: 'platforms',  icon: 'fas fa-share-nodes',        label: 'Platforms' },
-  { href: '/#newsletter', id: 'newsletter', icon: 'fas fa-envelope-open-text', label: 'Newsletter' },
+  { href: `${BASE}/#about`,      id: 'about',      icon: 'fas fa-user-gear',         label: 'About' },
+  { href: `${BASE}/#topics`,     id: 'topics',     icon: 'fas fa-layer-group',        label: 'Topics' },
+  { href: `${BASE}/#episodes`,   id: 'episodes',   icon: 'fas fa-circle-play',        label: 'Episodes' },
+  { href: `${BASE}/#platforms`,  id: 'platforms',  icon: 'fas fa-share-nodes',        label: 'Platforms' },
+  { href: `${BASE}/#newsletter`, id: 'newsletter', icon: 'fas fa-envelope-open-text', label: 'Newsletter' },
 ]
 
 export default function Navbar() {
@@ -52,7 +54,7 @@ export default function Navbar() {
                     : 'bg-paper/60 backdrop-blur-md border-b border-white/5'}`}
     >
       {/* Logo */}
-      <a href="/" className="flex items-center gap-3 no-underline flex-shrink-0 group">
+      <a href={import.meta.env.BASE_URL} className="flex items-center gap-3 no-underline flex-shrink-0 group">
         <svg width="34" height="34" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg"
              className="transition-transform duration-300 group-hover:scale-105">
           <rect width="36" height="36" fill="#0f0f14" rx="2"/>
@@ -97,7 +99,7 @@ export default function Navbar() {
         })}
         <li className="nav-li">
           <a
-            href="/#contact"
+            href={`${BASE}/#contact`}
             className="flex items-center gap-[.4rem] h-[60px] px-3 lg:px-4
                        font-mono text-[.67rem] font-semibold tracking-[.07em]
                        bg-accent text-white uppercase no-underline whitespace-nowrap
@@ -153,7 +155,7 @@ export default function Navbar() {
               </a>
             ))}
             <a
-              href="/#contact"
+              href={`${BASE}/#contact`}
               onClick={close}
               className="flex items-center gap-2 px-6 py-4
                          font-mono text-[.75rem] font-semibold tracking-[.07em]
