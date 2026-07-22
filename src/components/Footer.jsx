@@ -13,7 +13,7 @@ export default function Footer() {
                       justify-between gap-5 flex-wrap">
 
         {/* Logo */}
-        <a href="#" className="flex items-center gap-3 no-underline flex-shrink-0">
+        <a href="/" aria-label="DevOps Unfiltered home" className="flex items-center gap-3 no-underline flex-shrink-0">
           <svg width="32" height="32" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect width="36" height="36" fill="#18181b" rx="2"/>
             <rect width="36" height="3" fill="#f97316" rx="1"/>
@@ -34,6 +34,7 @@ export default function Footer() {
               href={s.href}
               target="_blank"
               rel="noreferrer"
+              aria-label={`DevOps Unfiltered on ${s.label}`}
               className={`flex items-center gap-[.35rem]
                           font-mono text-[.62rem] text-ink/30
                           no-underline
