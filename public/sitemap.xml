@@ -1,52 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://YOUR_DOMAIN.com/</loc>
+    <loc>https://devopsunfiltered.clustersjo.dev/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://YOUR_DOMAIN.com/topics/docker</loc>
+    <loc>https://devopsunfiltered.clustersjo.dev/topics/docker</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR_DOMAIN.com/topics/kubernetes</loc>
+    <loc>https://devopsunfiltered.clustersjo.dev/topics/kubernetes</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR_DOMAIN.com/topics/aws</loc>
+    <loc>https://devopsunfiltered.clustersjo.dev/topics/aws</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR_DOMAIN.com/topics/cicd</loc>
+    <loc>https://devopsunfiltered.clustersjo.dev/topics/cicd</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR_DOMAIN.com/topics/terraform</loc>
+    <loc>https://devopsunfiltered.clustersjo.dev/topics/terraform</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR_DOMAIN.com/topics/ansible</loc>
+    <loc>https://devopsunfiltered.clustersjo.dev/topics/ansible</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR_DOMAIN.com/topics/linux</loc>
+    <loc>https://devopsunfiltered.clustersjo.dev/topics/linux</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR_DOMAIN.com/topics/monitoring</loc>
+    <loc>https://devopsunfiltered.clustersjo.dev/topics/monitoring</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR_DOMAIN.com/topics/scripting</loc>
+    <loc>https://devopsunfiltered.clustersjo.dev/topics/scripting</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
