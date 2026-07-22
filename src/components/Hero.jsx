@@ -61,9 +61,8 @@ export default function Hero() {
               className="font-mono text-[clamp(.78rem,1.5vw,1rem)] text-ink/50 leading-[1.75]
                           max-w-xl lg:mb-8 border-l-[2px] border-accent pl-4"
             >
-              Honest, hands-on technical content<br />
-              for engineers who learn by doing —<br />
-              not by watching someone explain slides.
+              Build production-ready DevOps skills through real projects<br />
+              ,automation, and cloud infrastructure.<br />
             </motion.p>
           </div>
 
